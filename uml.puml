@@ -1,0 +1,10 @@
+@startuml X
+
+title Diagrama de Contexto - Assistente de AI
+
+Architect --> AI_Assistant : Utiliza o assistente de AI para criar propostas de solução
+AI_Assistant --> GooglePresentation : Cria uma apresentação
+AI_Assistant --> GoogleDrive : Salva a apresentação
+Architect <-- AI_Assistant : Cria do Diagrama
+
+@enduml
