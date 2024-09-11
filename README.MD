@@ -2,9 +2,43 @@
 
 An intelligent assistant for creating architecture diagrams using the C4 Model in draw.io. It understands inputs in Portuguese and English, automatically generating accurate and efficient diagrams based on the instructions provided by software architects.
 
+## Summary
+
+- [Overview](#overview): Introduction to the C4 Model Architecture Assistant and its main features.
+- [Project Structure](#project-structure)
+- [Features](#features): A detailed list of the assistant's capabilities and benefits.
+- [Getting Started](#getting-started): Instructions on how to set up and use the assistant.
+- [Usage](#usage): Steps to generate diagrams using the assistant and import them into draw.io.
+- [Examples](#examples): Sample input and output files to illustrate the assistant's functionality.
+- [License](#license): Information about the usage license of this project.
+- [Contributing](#contributing): Guidelines on how to contribute to the project and submit issues or pull requests.
+- [Contact](#contact): How to reach out for questions, suggestions, or support.
+
 ## Overview
 
 The C4 Model Architecture Assistant is a smart tool designed to help software architects easily create architecture diagrams using the C4 Model levels (Context, Containers, Components) directly in draw.io. By processing natural language inputs in both Portuguese and English, this assistant generates well-structured diagrams in XML format, compatible with draw.io.
+
+## Project Structure
+
+The repository is organized as follows:
+
+```markdown
+/project-root
+  │
+  ├── sample_diagrams/        # Sample Diagrams Created│
+  ├── referencias-rag/        # External XML Reference Files for Assistant's RAG│
+  ├── prompts/                # Sample Prompts to Test Assistant│
+  ├── instructions.md         # Instructions for Assistant
+```
+
+### Description
+
+- **`sample_diagrams/`**: Contains sample diagrams created using the assistant in XML format, compatible with draw.io. These examples demonstrate the various levels of the C4 Model (Context, Containers, Components).
+- **`referencias-rag/`**: Contains external XML reference files that the assistant uses for its retrieval-augmented generation (RAG) process to improve the accuracy and relevance of generated diagrams.
+- **`prompts/`**: Contains sample prompts that can be used to test the assistant's capabilities and functionality. These prompts help verify how the assistant generates diagrams based on different inputs.
+- **`instructions.md`**: Provides detailed instructions on how to use the assistant, including supported input formats, expected outputs, and guidelines for effective use.
+- **`README.md`**: The main project documentation file that includes an overview, features, installation, usage instructions, and contribution guidelines.
+- **`LICENSE`**: The license file for the project, outlining the terms under which the project can be used, modified, and distributed.
 
 ## Features
 
