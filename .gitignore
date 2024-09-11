@@ -1,0 +1,5 @@
+# Draw.io temporary and backup files
+*.drawio.dtmp
+*.drawio.bkp
+.$*.drawio.dtmp
+.$*.drawio.bkp

@@ -1,0 +1,6 @@
+<!-- Assistente de AI -->
+        <object placeholders="1" c4Name="Assistente de AI" c4Type="Software System" c4Description="Sistema inteligente que cria propostas de solução" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Assistente de AI&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#fff&quot;&gt;Sistema inteligente que cria propostas de solução&lt;/font&gt;&lt;/div&gt;" id="AIAssistant">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#FF660D;strokeColor=#0b4884;fontColor=#ffffff;shape=mxgraph.c4.system;align=center;metaEdit=1;" parent="1" vertex="1">
+            <mxGeometry x="370" y="200" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>

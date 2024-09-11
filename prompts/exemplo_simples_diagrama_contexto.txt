@@ -1,0 +1,5 @@
+chat desejo criar um diagrama de contexto do c4 com a seguinte sequencia de passos e elementos. 
+
+- Um arquiteto de soluções (person) utiliza um assistente de AI (software system) para criar propostas de solução o assistente compreende a solução a ser projetada e criar uma apresentação no google presentation (external software system) e salva no google drive (external software system).
+
+Consegue me ajudar a criar o diagrama c4?

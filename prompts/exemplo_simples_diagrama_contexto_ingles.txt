@@ -1,0 +1,5 @@
+chat I want to create a c4 context diagram with the following sequence of steps and elements. 
+
+- A solutions architect (person) uses an AI assistant (software system) to create solution proposals. The assistant understands the solution to be designed and creates a presentation on Google Presentation (external software system) and saves it on Google Drive (external software system).
+
+Can you help me create the c4 diagram?

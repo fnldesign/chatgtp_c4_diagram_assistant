@@ -1,0 +1,50 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="C4 Context Diagram" id="HzTzjwOVQ8VLb52DezEM">
+    <mxGraphModel dx="1861" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Arquiteto de Soluções (Person) -->
+        <object placeholders="1" c4Name="Arquiteto de Soluções" c4Type="Person" c4Description="Usuário que interage com o Assistente de AI para criar propostas de solução" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Arquiteto de Soluções&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;Usuário que interage com o Assistente de AI para criar propostas de solução&lt;/font&gt;&lt;/div&gt;" id="Person1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="50" y="200" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        
+        <!-- Assistente de AI (Software System Internal) -->
+        <object placeholders="1" c4Name="Assistente de AI" c4Type="Software System" c4Description="Intelligent Assistant for Solutions Design" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Assistente de AI&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#fff&quot;&gt;Assistente inteligente para criação de propostas de solução&lt;/font&gt;&lt;/div&gt;" id="Assistant1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#FF660D;strokeColor=#0b4884;fontColor=#ffffff;shape=mxgraph.c4.system;align=center;metaEdit=1;" parent="1" vertex="1">
+            <mxGeometry x="370" y="200" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        
+        <!-- Google Presentation (Software System External) -->
+        <object placeholders="1" c4Name="Google Presentation" c4Type="Software System" c4Description="Sistema externo onde a apresentação é criada" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Google Presentation&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#fff&quot;&gt;Sistema externo onde a apresentação é criada&lt;/font&gt;&lt;/div&gt;" id="GooglePresentation1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="690" y="50" width="200" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        
+        <!-- Google Drive (Software System External) -->
+        <object placeholders="1" c4Name="Google Drive" c4Type="Software System" c4Description="Sistema externo onde a apresentação é salva" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Google Drive&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#fff&quot;&gt;Sistema externo onde a apresentação é salva&lt;/font&gt;&lt;/div&gt;" id="GoogleDrive1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="860" y="300" width="200" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        
+        <!-- Conexões -->
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Person1" target="Assistant1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Assistant1" target="GooglePresentation1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Assistant1" target="GoogleDrive1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

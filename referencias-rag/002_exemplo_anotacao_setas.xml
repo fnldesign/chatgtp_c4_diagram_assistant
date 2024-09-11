@@ -1,0 +1,7 @@
+ <!-- Assistente de AI -> Google Presentations -->
+ <!-- Note o atributo value com o texto para a seta -->
+ <mxCell id="aSUqrl2AVnwQle1ZTiwb-3" value="Cria Apresentação da Proposta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge2">
+          <mxGeometry x="0.3726" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
