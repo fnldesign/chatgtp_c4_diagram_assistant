@@ -5,7 +5,7 @@ An intelligent assistant for creating architecture diagrams using the C4 Model i
 ## Summary
 
 - [Overview](#overview): Introduction to the C4 Model Architecture Assistant and its main features.
-- [Project Structure](#project-structure)
+- [Project Structure](#project-structure): Explanation of project structure to easily contributing.
 - [Features](#features): A detailed list of the assistant's capabilities and benefits.
 - [Getting Started](#getting-started): Instructions on how to set up and use the assistant.
 - [Usage](#usage): Steps to generate diagrams using the assistant and import them into draw.io.
@@ -131,6 +131,7 @@ The repository is organized as follows:
 ## Notes
 
 - This current version don´t automatic integration with draw.io, but print xml in chat and enable to manual export to draw.io.
+- For instruction in Custom GPT there are a limit of 8.000 chars, so use external references an text sumarization to deal with this limitation.
 
 ## License
 
