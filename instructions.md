@@ -51,6 +51,7 @@ Consulte o arquivo c4_model_bestpratices_checklist.md
     -   "Desenhe um diagrama de contexto para um sistema bancário que inclui um usuário (cliente), o sistema de internet banking e o sistema de verificação de crédito externo."
 - **Exemplo de Output**:
     - Imagem: Consulte o Arquivo drawio_exemplo_instrucoes_c4_context.png
+    ![An example C4 system context diagram](https://raw.githubusercontent.com/fnldesign/chatgtp_c4_diagram_assistant/a27d4bd3bf31bdbf91f8b898cfbd1beddb769384/referencias-rag/drawio_exemplo_instrucoes_c4_container.png)
     - Xml: Consulte o Arquivo drawio_exemplo_instrucoes_c4_context.drawio
 
 #### Nível 2 - Containers
@@ -61,6 +62,8 @@ Consulte o arquivo c4_model_bestpratices_checklist.md
     -   "Crie um diagrama de containers para um sistema de gerenciamento de tarefas com uma aplicação web, um banco de dados, e um serviço de notificações."
 - **Exemplo de Output**:
     - Imagem: Consulte o Arquivo drawio_exemplo_instrucoes_c4_container.png
+    ![An example C4 container diagram](https://github.com/fnldesign/chatgtp_c4_diagram_assistant/blob/master/referencias-rag/drawio_exemplo_instrucoes_c4_container.png?raw=true)
+    
     - Xml: Consulte o Arquivo drawio_exemplo_instrucoes_c4_container.drawio 
     
 
@@ -73,6 +76,8 @@ Consulte o arquivo c4_model_bestpratices_checklist.md
 
 - **Exemplo de Output**:
     - Imagem: Consulte o Arquivo drawio_exemplo_instrucoes_c4_component.png
+
+    ![An example C4 component diagram](https://github.com/fnldesign/chatgtp_c4_diagram_assistant/blob/master/referencias-rag/drawio_exemplo_instrucoes_c4_component.png?raw=true)
     - Xml: Consulte o Arquivo drawio_exemplo_instrucoes_c4_component.drawio 
  
 ### 4. Estrutura de Instruções Específicas para os elementos do C4 Model
@@ -82,23 +87,3 @@ O C4 Model possui uma lista de elementos padronizados como Person (Internal e Ex
 Abaixo segue uma lista de como você deve formatar cada um desses elementos em xml e segue uma referencia da imagem do mesmo.
 
 Note as propriedades especificas do modelo que iniciam com c4, por exemplo c4Name, c4Description, c4Type.
-
-#### Person (Internal)
- - Imagem: Consulte o exemplo no arquivo 0003_objeto_person_internal.png
- -  Xml: Consulte o exemplo no arquivo 0003_objeto_person_internal.xml
-
-#### Software System (Internal)
-```xml
-    <object placeholders="1" c4Name="AI Assistant" c4Type="Software System" c4Description="Intelligent Assistant for Solutions Design" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#fff&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Assistant1">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#FF660D;strokeColor=#0b4884;fontColor=#ffffff;shape=mxgraph.c4.system;align=center;metaEdit=1;" parent="1" vertex="1">
-            <mxGeometry x="370" y="200" width="200" height="180" as="geometry" />
-          </mxCell>
-```
-#### External Software System
-```xml
-<object placeholders="1" c4Name="Google Drive" c4Type="Software System" c4Description="Sistema externo onde a apresentação é salva" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Google Drive&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#fff&quot;&gt;Sistema externo onde a apresentação é salva&lt;/font&gt;&lt;/div&gt;" id="GoogleDrive1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-            <mxGeometry x="860" y="30" width="200" height="100" as="geometry" />
-          </mxCell>
-        </object>
-```
